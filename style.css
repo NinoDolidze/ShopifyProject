@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: shopifyFont;
+  src: url(./OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: shopifyFontSoft;
+  src: url(./OpenSans-Regular.ttf);
+}
+
+.header {
+  width: 100%;
+  height: 550px;
+  background-image: radial-gradient(
+      circle at 0 0,
+      #5fd5b6 0,
+      rgba(95, 213, 182, 0) 30%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(121, 223, 255, 0.7) -10%,
+      rgba(121, 223, 255, 0) 70%
+    ),
+    radial-gradient(circle at 95% 0, #d0f224 0, rgba(95, 213, 182, 0) 20%);
+  /* background-color: black; */
+
+  /* justify-content: center; */
+}
+
+.logo_div {
+  display: flex;
+}
+
+.logo {
+  width: 165px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 50px; */
+}
+
+.subtitle_div {
+  width: 100%;
+  height: 169px;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 48px;
+  font-weight: 100;
+  /* font-weight: bold; */
+  /* font-family: sans-serif, Arial; */
+  font-family: shopifyFont;
+}
+
+.subtitle_text_div {
+  width: 100%;
+  height: 80px;
+  /* background-color: blue;  */
+  text-align: center;
+}
+
+.subtitle_text {
+  font-size: 21px;
+  font-family: shopifyFontSoft;
+}
+
+.search_main_div {
+  width: 100%;
+  height: 80px;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_div {
+  width: 500px;
+  height: 60px;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.search {
+  width: 300px;
+  height: 60px;
+  font-size: 17px;
+  margin-left: 24px;
+  font-family: shopifyFontSoft;
+  border: none;
+  outline: none;
+}
+
+.search_free_div {
+  width: 170px;
+  height: 50px;
+  background-color: black;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.search_free_div:hover {
+  background-color: rgba(0, 0, 0, 0.743);
+  transition: 0.2s;
+}
+
+.search_free_txt_div {
+  width: 100%;
+  height: 24px;
+}
+
+.search_free {
+  font-size: 17px;
+  font-family: shopifyFontSoft;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.002cm;
+}
+
+.txt_trial_div {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.txt_trial {
+  font-size: 12px;
+  color: gray;
+  font-family: shopifyFontSoft;
+}
+
+.shop_div {
+  width: 100%;
+  /* height: 300px; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: black; */
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+}
+
+.shop {
+  width: 29.1%;
+  /* width: 410px; */
+}
+
+.templates_main_div {
+  width: 100%;
+  /* height: 200px; */
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.templates_div {
+  width: 83%;
+  /* height: 200px; */
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+
+.all_template {
+  width: 30%;
+  /* height: 250px; */
+  height: auto;
+  /* background-color: black; */
+}
+
+.template_logo {
+  width: 100%;
+  height: 66px;
+  /* background-color: red; */
+}
+
+.templates_subtitles_div {
+  width: 100%;
+  height: 25px;
+  margin-top: 20px;
+  /* text-align: center; */
+  /* background-color: white; */
+}
+
+.templates_subtitles {
+  font-size: 21px;
+  font-family: shopifyFont;
+}
+
+.templates_txt_div {
+  width: 100%;
+  /* height: 70px; */
+  height: auto;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+
+.templates_txt {
+  font-size: 18px;
+  font-family: shopifyFontSoft;
+}
+
+.adds_main_div {
+  width: 100%;
+  height: 220px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.adds_content_divs {
+  width: 80%;
+  /* height: 220px; */
+  height: auto;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.adds_horizontal_div {
+  width: 100%;
+  /* height: 90px; */
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.adds_div {
+  width: auto;
+  /* height: 90px; */
+  height: auto;
+}
+
+.speech_main_div {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  text-align: center;
+  /* background-color: blue; */
+}
+
+.speech {
+  font-size: 40px;
+  font-family: shopifyFont;
+}
+
+.speech_author {
+  font-size: 20px;
+  padding-top: 13px;
+  font-family: shopifyFontSoft;
+}
+
+.advice_main_div {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 130px;
+  background-image: linear-gradient(-130deg, #054a49, 85%, #d0f224aa);
+}
+
+.advice_div {
+  width: auto;
+  height: auto;
+  /* background-color: red; */
+}
+
+#subtitle_advice {
+  color: white;
+}
+
+#subtitle_text_advice {
+  color: white;
+}
+
+#txt_trial_advice {
+  color: white;
+}
+
+.faq_main_div {
+  width: 100%;
+  height: 600px;
+  margin-top: 110px;
+  /* background-color: black; */
+}
+
+.faq_txt_div {
+  width: 100px;
+  height: auto;
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.faq_txt {
+  font-size: 50px;
+  font-family: shopifyFont;
+}
+
+.faq_list_main_div {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.faq_list_div {
+  width: 60%;
+  /* height: 500px; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* background-color: red; */
+}
+
+.faq_list {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  /* background-color: green; */
+}
+
+/* #faq_list_1{ */
+/* height: 150px; */
+/* } */
+
+.faq_list_txt_div {
+  width: 70%;
+  /* height: 20px; */
+  height: autos;
+  /* text-align: center; */
+  /* background-color: red; */
+}
+
+.faq_list_txt {
+  font-size: 22px;
+  font-family: shopifyFont;
+}
+
+.faq_plus_div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: black;
+}
+
+#faq_plus {
+  color: white;
+  /* padding-top: 10px; */
+  font-size: 20px;
+}
+
+.lists {
+  width: 100%;
+  /* height: 500px; */
+  height: auto;
+  margin-top: 2px;
+  /* background-color: purple; */
+}
+
+.lists_txt_div {
+  width: 100%;
+  /* height: 20px; */
+  height: auto;
+  margin-top: 10px;
+  /* background-color: blue; */
+}
+
+.lsits_header_txt {
+  font-size: 20px;
+  font-family: shopifyFontSoft;
+}
+
+.with_shopify_div {
+  width: 100%;
+  height: 20px;
+  margin-top: 20px;
+  /* background-color: green; */
+}
+
+.with_shopify {
+  font-size: 20px;
+  font-family: shopifyFontSoft;
+}
+
+.with_shopify_content_div {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  /* background-color: blue; */
+}
+
+.with_shopify_content {
+  font-size: 20px;
+  padding-top: 5px;
+  font-family: shopifyFontSoft;
+}
+
+.with_shopify_footer_div {
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+  /* background-color: green; */
+}
+
+.with_shopify_footer {
+  font-size: 20px;
+  font-family: shopifyFontSoft;
+}
+
+.hidden {
+  display: none;
+}
